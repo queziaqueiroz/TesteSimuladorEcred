@@ -1,0 +1,14 @@
+{
+  "name": "serasa",
+"version": "1.0.0",
+"description": "Teste serasa credito simulador",
+"main": "index.js",
+"scripts": {
+  "test": "npx cypress open"
+},
+"author": "Quezia",
+"license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.10.0"
+  }
+}
