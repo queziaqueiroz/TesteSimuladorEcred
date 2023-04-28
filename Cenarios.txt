@@ -1,17 +1,18 @@
 #language: pt
 
-Funcionalidade: No sistema de apresentação de empréstimos
-bancários faz-se necessário a apresentação dos juros por instituições
-financeiras e estados de atuação de cada uma.
+Funcionalidade: Simulador de empréstimo e credito
 
 Cenário: Validar simulação emprestimo no valor de R$ 1.000,00
+
     Dado que foi inserido o valor desejado  R$ 1.000 em 6 vezes
     Então o valor da simulação deverá ser 6x R$ 271,27
 
+Cenário: Validar simulação emprestimo no valor de R$ 4.000,00
 
-1) Dados de entrada: Simulação de: R$ 1.000 em 6 vezes
-Valor esperado: 6x R$ 271,27
-2) Dados de entrada: Simulação de: R$ 4.000 em 12 vezes
-Valor esperado: 12x R$ 478,49
-3) Dados de entrada: Simulação de: R$ 6.000 em 24 vezes
-Valor esperado: 24x R$ 347,89
+    Dado que foi inserido o valor desejado  R$ 4.000 em 12 vezes
+    Então o valor da simulação deverá ser 12x R$ 478,49
+
+Cenário: Validar simulação emprestimo no valor de R$ 6.000,00
+
+    Dado que foi inserido o valor desejado  R$ 6.000 em 24 vezes
+    Então o valor da simulação deverá ser 24x R$ 347,89
